@@ -1,0 +1,56 @@
+.button{
+  	background-color: lightblue;
+  	font-family: courier;
+	}
+h1 {
+	font-size:  80px;
+}
+
+.special {
+	color:  red;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.entry2 {
+	background-color: #69bbdb;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  column-gap: 10px;
+  row-gap: 1em;
+}
+
+.textbox1 {
+	background-color: floralwhite;
+	margin-left: 100px;
+	margin-right: 1000px;
+	border-radius: 2px;
+
+}
+
+
+.hide {
+  display: none;
+}
+
+.textbox1:hover + .hide {
+  display: block;
+
+}
+
+
+
+
+
+
+
+
