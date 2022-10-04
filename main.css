@@ -48,9 +48,22 @@ h1 {
 }
 
 
+.covidwechat {
+  box-shadow:10px 10px 8px 10px #888888;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 
+}
 
+.scrollbox {
+  height:180px;width:180px;overflow:auto;
+}
 
+.background {
+  background-color: lightsalmon;
+}
 
 
 
