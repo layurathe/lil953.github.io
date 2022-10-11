@@ -65,5 +65,42 @@ h1 {
   background-color: lightsalmon;
 }
 
+.background4 {
+  background-color: lightblue;
+}
 
+.imgtoggle {
+  color: blue;
+}
+
+.img {
+  width: 100%;
+}
+
+@media (max-width: 650px) {
+   .hide {
+    display: block;
+  }
+}
+
+@media (max-width: 650px) {
+   .hidden {
+    display: none;
+  }
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+}
+
+
+.item {
+  margin: 10px 10px;
+  width: 20%;
+  height: 20%;
+}
 
