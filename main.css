@@ -33,6 +33,10 @@ h1 {
   width: 50%;
 }
 
+.centertext {
+  text-align: center;
+}
+
 .entry2 {
 	background-color: #69bbdb;
 }
@@ -180,11 +184,13 @@ h1 {
 }
 
 .phone {
+  width: 40%;
 }
 
 .scrollitem {
-  margin-left: 31%;
+  margin-left: 35%;
   border-radius: 60px;
+  width: 30%;
 }
 
 .scrolltext {
@@ -195,7 +201,6 @@ h1 {
   border-right: 20px solid transparent;
   border-bottom: 20px solid #ccc;
   z-index: 3;
-  margin-top: 300px;
 
 }
 
@@ -208,10 +213,53 @@ h1 {
     border-bottom: 10px solid #fff;
     z-index: 4;
     margin-top: 300px;
+    border-radius: 300px;
 
    
 }
 
+.column {
+  display: flex;
+}
+
+.strip1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+
+}
+
+.strip2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15%;
+
+}
+
+.pic1 {
+  width: 60%;
+
+}
+.pic2 {
+  width: 60%;
+}
+.pic3 {
+  width: 60%;
+}
+.pic4 {
+  width: 130%;
+}
+.pic5 {
+  width: 130%;
+}
+.pic6 {
+  width: 130%;
+}
+
+.poem {
+  width: 100%;
+  margin-right: 15%;
+  margin-top: 10%;
 
 
-
+}
