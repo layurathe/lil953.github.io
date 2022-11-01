@@ -43,13 +43,14 @@ h1 {
 
 .size {
   margin-top: 50px;
-  width: 100%;
+  width: 150%;
+  margin-left: -70px;
 }
 
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 300px;
   column-gap: 10px;
   row-gap: 1em;
@@ -263,3 +264,45 @@ h1 {
 
 
 }
+
+
+
+.flipbox {
+  width: 500px;
+  height: 350px;
+  margin: 50px auto;
+  perspective: 1000px;
+}
+
+.flipimg, .front, .back {
+  width: 100%;
+  height: 100%;
+}
+
+.flipimg {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: .5s;
+  border-radius: 10px;
+}
+
+.front {
+  position: absolute;
+  cursor: pointer;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY(180deg);
+  padding: 20px;
+  color: #fff;
+  position: absolute;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+}
+
+.flipbox:hover .flipimg {
+  transform: rotateY(180deg);
+}
+
+
