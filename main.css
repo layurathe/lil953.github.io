@@ -269,7 +269,7 @@ h1 {
 
 .flipbox {
   width: 500px;
-  height: 350px;
+  height: 750px;
   margin: 50px auto;
   perspective: 1000px;
 }
@@ -283,6 +283,7 @@ h1 {
   position: relative;
   transform-style: preserve-3d;
   transition: .5s;
+  border: 10px solid whitesmoke;
   border-radius: 10px;
 }
 
