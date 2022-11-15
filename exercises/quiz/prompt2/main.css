@@ -1,0 +1,35 @@
+body {
+	background: orangered;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	font: times new roman;
+	font-size: 50px;
+	color: darkred;
+}
+
+
+.button {
+  padding: 20px 50px;
+  border-radius: 30px;
+  background-color:  white;
+  color:  black;
+  font-size:  60px;
+  font-size: 20px;
+  text-align:  center;
+  transition:  all 100ms;
+}
+
+
+.button:hover {
+  background-color: #DEB887;
+  cursor:  pointer;
+}
