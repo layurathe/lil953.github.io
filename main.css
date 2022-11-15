@@ -306,4 +306,20 @@ h1 {
   transform: rotateY(180deg);
 }
 
+.flex {
+  display: flex;
+}
 
+.plane {
+  width: 200px;
+  height: 350px;
+  position: fixed;
+  top: 100px;
+}
+
+
+.button:hover {
+  opacity: .8;
+  cursor: pointer;
+  transition: 90ms ease;
+}
