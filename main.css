@@ -28,8 +28,7 @@ h1 {
 
 .center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 50%;
 }
 
@@ -186,38 +185,43 @@ h1 {
 
 .phone {
   width: 40%;
-}
-
-.scrollitem {
-  margin-left: 35%;
-  border-radius: 60px;
-  width: 30%;
-}
-
-.scrolltext {
-
-  position: absolute;
-  top: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 20px solid #ccc;
-  z-index: 3;
-
+  
 }
 
 .phoneframe {
-    position: absolute;
-    top: 10px;
-    left: 18px;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid #fff;
-    z-index: 4;
-    margin-top: 300px;
-    border-radius: 300px;
-
-   
+    margin-left: 500px;
 }
+
+/* .phonesection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.scrollitem {
+  margin-top: -5px;
+  height:300px;
+  width:250px;
+
+
+}
+
+.scrollitem3 {
+  margin-top: -5px;
+  height:200px;
+  width:250px;
+}
+
+.scrolltext {
+ height:530px;
+ width:250px;
+ overflow:auto;
+  margin-left: 525px;
+  border-radius: 20px;
+  margin-top: -550px;
+
+}
+
 
 .column {
   display: flex;
